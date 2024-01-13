@@ -1,0 +1,56 @@
+body{
+
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin: 2;
+  
+}
+html, body {
+  height: 100%;
+  height: 100vh;
+}
+body::-webkit-scrollbar{
+  background-color: transparent;
+
+}
+body::-webkit-scrollbar-thumb{background: linear-gradient( rgb(205, 201, 201),rgb(96, 95, 95),rgb(15, 14, 14))
+;
+width:2px ;}
+   
+   
+body {
+      
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#marquee {
+
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+nav.navbar{
+background: linear-gradient( to right,rgb(0, 151, 178), rgb(126, 217, 87));
+  
+}
+
+.marquee{ 
+  font-size: 100px;
+  font-weight: 900;
+  background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcThC50ypwcunnD3WdfxFK1BLefQKH2fDB6OUZXTz_aqRoknmUJI);
+  background-size: cover;
+  background-position: center;
+  background-clip:text;
+  -webkit-background-clip:text;
+  color: transparent;
+  text-align:end;}
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set the body height to 100% of the viewport height */
+ 
+    background: linear-gradient( to right, #eeaeca,#94bbe9); /* Set your gradient colors */
+}
